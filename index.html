@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+
+    </head>
+    <body>
+       
+        <div class="container">
+            <p id="description">Short description : This Project is Dom manipulation with form.</p>
+            <h1 id="title">Form Submit</h1>
+            <div class="form-g">
+                <form id="form">
+                    <label class="form-field" for="first-name">Firstname</label>
+                    <input class="form-field" id="first-name" type="text" placeholder="Enter your firstname"  name="">
+
+                    <label class="form-field" for="last-name">Lastname</label>
+                    <input class="form-field" id="last-name" type="text" placeholder="Enter your Lastname" >
+
+                    <label class ="form-field" for="gender">Gender</label>
+                    <select class ="form-field" name="gender" id="gender">
+                    <option value="">-Select Gender-</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                     <option value="Other">Other</option>
+                    </select><br>
+
+
+                    <label class ="form-field" for="food">Choice of food</label>
+                    <input type="checkbox" id="food"  value="Icecream">
+                    <label for="food"> Icecream</label><br>
+                    <input type="checkbox" id="food"  value="Brownie">
+                    <label for="food"> Brownie</label><br>
+                    <input type="checkbox" id="food"  value="waffle">
+                    <label for="food"> waffle</label><br>
+                    <input type="checkbox" id="food"  value="chocolate">
+                    <label for="food"> chocolate</label><br>
+                    <input type="checkbox" id="food"  value="cake">
+                    <label for="food">cake </label><br>
+                    
+                    <label class="form-field" for="address">Address</label>
+                    <input class="form-field" type="text" placeholder="Enter your Address" id="address">
+
+                    <label class="form-field" for="pincode">pincode</label>
+                    <input class="form-field" type="text" placeholder="Enter the pincode" id="pincode">
+
+                    <label class ="form-field" for="state">State</label>
+                    <input class ="form-field" type="text" placeholder="Fill your state name here" id="state">
+
+                     <label class ="form-field" for="country">Country</label>
+                     <input class ="form-field" type="text" placeholder="fill your Country name here" id="country">
+
+                    <button class ="btn" type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Adress</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>Choice Of Food</th>
+                <th>State</th>
+                <th>Country</th>
+              </tr>
+              </thead>
+              <tbody>
+              
+              </tbody>
+              
+              </table>
+        </div>
+    </body>
+    <script src="index.js"></script> 
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</html>
